@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!--  09-06-2024, 10121914, HERI, IF9K -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        app:srcCompat="@drawable/myprofile" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heri"
+        android:textSize="24sp"
+        android:textAlignment="center" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="0dp"
+        android:layout_height="7dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introducing my name is Heri, I graduated
+from SMKN 13 Bandung majoring in
+Computer and Network Engineering 2020
+I am currently studying S1 Informatics
+Engineering at the Indonesian Computer
+University (UNIKOM)"
+        android:textSize="12sp"
+        android:textAlignment="center" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="0dp"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hobby"
+        android:textSize="20sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hobi saya adalah olahraga, terutama bermain bola dan futsal. Saya juga sangat menikmati berlari sebagai bagian dari rutinitas latihan saya."
+        android:textSize="12sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Makes"
+        android:textSize="20sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saya sangat menyukai belajar pemrograman. Ketertarikan saya terutama pada bagaimana saya dapat menggunakan keterampilan ini untuk membuat aplikasi yang berguna dan inovatif."
+        android:textSize="12sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mikes"
+        android:textSize="20sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saya menyukai jalan-jalan dan mencari kuliner, mencoba tempat wisata baru. Setiap perjalanan memberikan kesempatan untuk melihat dan belajar hal-hal baru."
+        android:textSize="12sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interest"
+        android:textSize="20sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saya memiliki ketertarikan dalam beberapa bidang, terutama teknologi dan otomotif. Saya senang mengikuti perkembangan teknologi terbaru dan mempelajari inovasi dalam dunia otomotif. Selain itu, saya juga sangat tertarik pada olahraga."
+        android:textSize="12sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cita-cita"
+        android:textSize="20sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cita-cita saya adalah menjadi ahli di bidang IT, khususnya sebagai programmer. Saya bercita-cita untuk mengembangkan keterampilan saya dan menjadi seorang technopreneur yang sukses dengan memiliki startup sendiri."
+        android:textSize="12sp"
+        android:textAlignment="center" />
+</LinearLayout>

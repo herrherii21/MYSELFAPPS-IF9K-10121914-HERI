@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!--  09-06-2024, 10121914, HERI, IF9K -->
+
+    <android.support.v4.widget.Space
+        android:layout_width="0dp"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/myprofile" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heri"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introducing my name is Heri, I graduated
+from SMKN 13 Bandung majoring in
+Computer and Network Engineering 2020
+I am currently studying S1 Informatics
+Engineering at the Indonesian Computer
+University (UNIKOM)"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="0dp"
+        android:layout_height="15dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Phone"
+        android:onClick="onCallPhoneClick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Mail"
+        android:onClick="onSendMailClick"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Social Media"
+        android:onClick="onSocialMediaClick"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
